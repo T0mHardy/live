@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+   margin: 160px;
+}
+
+.content {
+    font-size: 200px;
+    color: red;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 35px;
+}
+
+.content::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: red;
+    display: block;
+    margin-left: 145px;
+}
